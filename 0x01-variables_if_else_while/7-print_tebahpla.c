@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - Prints reversed alphabet.
@@ -8,11 +10,11 @@
 
 int main(void)
 {
-	int i;
+	char lowerCase;
 
-	for (i = 122; i < 96; i--)
+	for (lowerCase = 'z'; lowerCase >= 'a'; lowerCase--)
 	{
-		putchar(i);
+		putchar(lowerCase);
 	}
 	putchar('\n');
 	return (0);
