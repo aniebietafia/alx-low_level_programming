@@ -1,4 +1,4 @@
-#include "_putchar.h"
+#include "main.h"
 /**
  * main - Prints _putchar as a message.
  * Description: It prints the characters _putchar.
