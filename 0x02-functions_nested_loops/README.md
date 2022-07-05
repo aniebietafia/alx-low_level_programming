@@ -10,3 +10,7 @@ Task 8: A function that prints every minute of the day of Jack Bauer, starting f
 Task 9: A function that prints the 9 times table, starting with 0.
 Task 10: A function that adds two integers and returns the result.
 Task 11: A function that prints all natural numbers from n to 98.
+Task 12: A function that prints n times table, starting with 0.
+Task 13: A program that computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded).
+Task 14: A program that prints the first 50 Fibonacci numbers, starting with 1 and 2.
+Task 15: Program that prints the sum of the even-valued terms.
