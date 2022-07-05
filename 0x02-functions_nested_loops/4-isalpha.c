@@ -1,4 +1,4 @@
-#include "_putchar.h"
+#include "main.h"
 
 /**
  * _isalpha - Displays 1 if the input is a letter else it displays 0.
