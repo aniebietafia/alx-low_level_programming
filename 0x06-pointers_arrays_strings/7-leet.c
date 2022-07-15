@@ -6,26 +6,19 @@
  *
  * Return: the pointer to dest.
  */
-
 char *leet(char *s)
 {
-	int count = 0, i;
-	int low_letters[] = {97, 101, 111, 116, 108};
-	int upp_letters[] = {65, 69, 79, 84, 76};
-	int numbers[] = {52, 51, 48, 55, 49};
+	int i, j;
+	char a[] = "aAeEoOtTlL";
+	char b[] = "4433007711";
 
-	while (*(s + count) != '\0')
+	for (i = 0; *(s + i); i++)
 	{
-		for (i = 0; i < 5; i++)
+		for (j = 0; j <= 9; j++)
 		{
-			if (*(s + count) == low_letter[i] || *(s + count) == upp_letters[i])
-			{
-				*(s + count) = numbers[i];
-				break;
-			}
+			if (a[j] == *(s + i))
+				*(s + i) = b[j];
 		}
-		count++;
 	}
-
 	return (s);
 }
