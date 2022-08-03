@@ -1,7 +1,6 @@
 #include "3-calc.h"
-#include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+#include <stdio.h>
 
 /**
  * main - check the code for Holberton School students.
@@ -13,7 +12,7 @@
 
 int main(int argc, char *argv[])
 {
-	int (*func)(int, int);
+	int (*oprt)(int, int);
 
 	if (argc != 4)
 	{
@@ -21,13 +20,14 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 
-	func = get_op_func(argv[2]);
-	if (func == NULL)
+	oprt = get_op_func(argv[2]);
+
+	if (!oprt)
 	{
 		printf("Error\n");
 		exit(99);
 	}
 
-	printf("%d\n", func(atoi(argv[1]), atoi(argv[3])));
+	printf("%d\n", oprt(atoi(argv[1]), atoi(argv[3])));
 	return (0);
 }
