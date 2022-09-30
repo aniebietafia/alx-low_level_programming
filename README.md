@@ -20,7 +20,7 @@
   </tr>
   
   <tr>
-    <td colspan=2><a href="https://github.com/AfiaAniebiet/alx-low_level_programming/tree/master/0x00-hello_world">0x00-hello_world</a></td>
+    <td><a href="https://github.com/AfiaAniebiet/alx-low_level_programming/tree/master/0x00-hello_world">0x00-hello_world</a></td>
     <td>It aims to learn about what is entry point, basics commands (puts, printf, putchar), compilation process with gcc in C language</td>
   </tr>
  </table>
