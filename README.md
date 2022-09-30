@@ -1,4 +1,4 @@
-# This is the repository for the Low level programming language using C programming language.
+# Low level programming language using C Programming language.
 
 <p>Module of Low-level programming and algorithm, carried out during Full Stack Software Engineering studies at ALX School of Software Engineering.</p>
 
