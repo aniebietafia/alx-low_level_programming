@@ -1,4 +1,4 @@
-# Low level programming language using C Programming language.
+# Low level Programming using C Programming language.
 
 <p>Module of Low-level programming and algorithm, carried out during Full Stack Software Engineering studies at ALX School of Software Engineering.</p>
 
@@ -10,7 +10,7 @@
   <li>Tested on Ubuntu 20.04 LTS</li>
  </ul>
  
- # Projects
+# Projects
  
  <p>All of the following folders are projects done during the programme.</p>
  <table>
@@ -24,6 +24,7 @@
     <td>It aims to learn about what is entry point, basics commands (puts, printf, putchar), compilation process with gcc in C language</td>
   </tr>
  </table>
-<h3>Author</h3>
+
+### Author
 <h4>Aniebiet Afia</h4>
 <p>&copy;<strong>2022<strong> - ALX Software Engineering Projects</p>
