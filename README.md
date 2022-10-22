@@ -24,5 +24,6 @@
     <td>It aims to learn about what is entry point, basics commands (puts, printf, putchar), compilation process with gcc in C language</td>
   </tr>
  </table>
-  
->>>>>>> 245d5a14d73f0645ba68e1d973eb14009fd23124
+### Author:
+<p>Aniebiet Afia</p>
+<p>&copy; 2022 - ALX Software Engineering Projects</p>
